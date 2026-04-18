@@ -1,0 +1,20 @@
+body {
+    background-image: linear-gradient(hsl(314, 100%, 88%), #ffdbb1);
+    padding: 100;
+}
+
+
+h1,
+h2,
+h3 {
+    color: #ff88cb;
+    font-family: Verdana;
+}
+p {
+    color: #ff75df;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}   
+
+#grad {
+  background-image: linear-gradient(to bottom, red, yellow);
+}
