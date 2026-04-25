@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+.main {
+    width: 95%;
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgb(76, 76, 76);
+    padding: 15px;
+    border-radius: 12px;
+
+    
+}
+
+.main {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main img {
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+}
+
+
+
+#axe {
+    width: 100%;
+    max-width: 400px;
+}
+
+#scythe {
+    width: 260px;
+    max-width: 400px;
+}
