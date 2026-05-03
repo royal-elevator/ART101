@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: serif;
     font-size: 35px;
     text-align: center;
@@ -9,6 +9,7 @@ body {
 img {
     display: block;
     margin: 20px auto;
+    border-radius: 20px;
 }
 
 .main {
@@ -17,7 +18,7 @@ img {
     margin: 0 auto;
     background: rgb(76, 76, 76);
     padding: 15px;
-    border-radius: 12px;
+    border-radius: 20px;
 
 
 }
@@ -45,4 +46,18 @@ img {
 #scythe {
     width: 260px;
     max-width: 400px;
+}
+
+#darkness {
+    border-radius: 20px;
+}
+
+#memoryRecovery {
+    font-size: 28px;       
+    padding: 20px 40px;   
+    border-radius: 15px;  
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
