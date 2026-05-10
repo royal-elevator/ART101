@@ -11,7 +11,7 @@ let mainEntity = {
     memories: "yet to be rediscovered"
 };
 
-$("#memoryRecovery").click(function() {
+$("#memoryRecovery").click(function () {
 
     count++;
 
@@ -41,4 +41,25 @@ $("#memoryRecovery").click(function() {
 
     console.log(count);
     console.log(currentMood);
+});
+
+function askAge() {
+    let userAge = Number(prompt("How old were you when you died?"));
+
+    if (userAge > 50) {
+        $("#output").html("How unfortunate. Rest easy.");
+        $("body").css("background-color", "black");
+    }
+    else {
+        $("#output").html("So young..");
+        $("body").css("background-color", "rgb(32, 48, 74)");
+    }
+}
+
+$("#age-button").click(function () {
+    askAge();
+});
+
+$("#memoryRecovery").click(function () {
+    $("#output").html("Your memories begin to return...");
 });
